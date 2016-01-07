@@ -21,24 +21,9 @@
     </div>
 </form>
 
-<div>
-    <label>Name:</label>
-    <input type="text" ng-model="yourName" placeholder="Enter a name here">
-    <hr>
-    <h1>Hello {{yourName}}!</h1>
-</div>
 
 
-@*<div ng-controller="TestCtrl">
+@Scripts.Render("~/Scripts/Custom_Scripts/test-angular.js")
+<div ng-controller="TestCtrl">
     {{text}}
 </div>
-<script>
-
-
-    angular.module('subProject', [])
-      .controller('TestCtrl', function ($scope) {
-          $scope.text = "Rasika";
-      });
-
-
-</script>*@
