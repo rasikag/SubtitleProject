@@ -80,3 +80,9 @@ D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\Microsoft
 D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\obj\Debug\SubtitleProject.csprojResolveAssemblyReference.cache
 D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\obj\Debug\SubtitleProject.dll
 D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\obj\Debug\SubtitleProject.pdb
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Net.Http.Formatting.dll
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Web.Http.dll
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Web.Http.WebHost.dll
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Net.Http.Formatting.xml
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Web.Http.xml
+D:\DevCraft\Visual Studio Projects\SubtitleProject\SubtitleProject\bin\System.Web.Http.WebHost.xml
