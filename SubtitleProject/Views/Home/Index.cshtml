@@ -9,7 +9,7 @@
 <br />
 <br />
 
-<form name="form1" method="post" enctype="multipart/form-data">
+@*<form name="form1" method="post" enctype="multipart/form-data" action="api/FileUpload/PostFormData">
 
     <div>
         <label for="image1">Upload File : </label>
@@ -19,11 +19,24 @@
     <div>
         <input type="submit" value="Submit" />
     </div>
-</form>
+</form>*@
 
 
+@using (@Html.BeginForm("PostFormData", "FileUpload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
 
-@Scripts.Render("~/Scripts/Custom_Scripts/test-angular.js")
+    <div>
+        <label for="image1">Upload File : </label>
+        <input name="image1" type="file" />
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+}
+
+
+@*@Scripts.Render("~/Scripts/Custom_Scripts/test-angular.js")
 <div ng-controller="TestCtrl">
     {{text}}
-</div>
+</div>*@
