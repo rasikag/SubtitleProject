@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "SinglePage";
+}
+
+<h2>SinglePage</h2>
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/Angular/app.js"></script>
+<script src="~/Scripts/Angular/Contollers/RowManageController.js"></script>
+<script src="~/Scripts/Angular/Services/RowData.js"></script>
+<div class="container" ng-controller="RowManageController">
+    <div class="row">
+        <form class="form-group">
+            <div class="col-md-12">
+                <div class="row"  ng-repeat="subs in subData.SubDataList track by $index">
+                    <div class="col-md-6">
+                        <p>{{subs.Name}}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form-control" type="text" ng-model="subs.Data"/>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-default" ng-click="submitChanges(subData.End , subData)">Chnage</button>
+            </div>
+        </form>
+    </div>
+</div>
+

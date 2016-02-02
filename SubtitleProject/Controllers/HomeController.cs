@@ -17,5 +17,10 @@ namespace SubtitleProject.Controllers
             return View();
         }
 
+        public ActionResult SinglePage()
+        {
+            return View();
+        }
+
     }
 }
