@@ -1076,6 +1076,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Files\" />
+    <Folder Include="NewSubFile\" />
     <Folder Include="SubtitleFiles\" />
     <Folder Include="Views\ReadAndWrite\" />
   </ItemGroup>

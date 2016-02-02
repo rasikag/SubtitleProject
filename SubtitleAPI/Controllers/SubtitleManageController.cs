@@ -64,6 +64,24 @@ namespace SubtitleProject.Controllers
         [HttpPost]
         public TestDataModel Post([FromBody]TestDataModel subs)
         {
+            string serverPath = HttpContext.Current.Server.MapPath("~/NewSubFile/text.txt");
+
+            try {
+
+                using (StreamWriter sw = File.AppendText(serverPath))
+                {
+                    for (int i = 0; i < subs.SubDataList.Count; i++)
+                    {
+                        sw.WriteLine(subs.SubDataList[i].Data);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+
             return subs;
         }
 
